@@ -1,0 +1,189 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+    <img src="C:\Users\PB\Desktop\max.jpg">
+		<h1>MAX CLINIC</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Login</a></li>
+           
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>MAX CLINIC</h1>
+        
+	</div>
+	<div data-role="content">
+      <h2>Login</h2>
+      <div data-role="fieldcontain">
+        <label for="textinput">Username:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="passwordinput">Password:</label>
+        <input type="password" name="passwordinput" id="passwordinput" value=""  />
+      </div>
+      <a href="#page8" data-role="button">Login</a>
+     New User?&nbsp;&nbsp;<a href="#page7">Register here</a>
+      
+      </div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>MAX CLINIC</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <label for="textinput8">Date:</label>
+      <input type="Date" name="textinput8" id="textinput8" value=""  />
+    </div><b>
+Time Intervals:</b>
+<div data-role="fieldcontain">
+  <label for="time">Start-Time:</label>
+  <input type="time" name="textinput9" id="textinput9" value=""  />
+</div>
+<div data-role="fieldcontain">
+  <label for="time">End-Time:</label>
+  <input type="time" name="textinput10" id="textinput10" value=""  />
+</div>
+<div data-role="fieldcontain">
+  <label for="time">Appointment Time Slot:</label>
+  <input type="time" name="textinput11" id="textinput11" value=""  />
+</div>
+<div data-role="fieldcontain">
+  <label for="textinput12">How many persons per slot:</label>
+  <input type="number" name="textinput12" id="textinput12" value=""  />
+</div>
+<div>
+<input type="submit" name="submit" value="Submit">
+</div>
+
+
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="page6">
+  <div data-role="header">
+    <h1>MAX CLINIC</h1>
+  </div>
+  <div data-role="content">
+  <h2>Book Your Appointment here</h2>
+  <div data-role="fieldcontain">
+    <label for="textinput7">Appointment Date:</label>
+    <input type="date" name="textinput7" id="textinput7" value=""  />
+  </div>
+  <div>
+Appointment Start-time:
+<input type="time" value="">
+  <input type="submit" name="submit" value="Submit"></div>
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="page7">
+  <div data-role="header">
+    <h1>MAX CLINIC</h1>
+  </div>
+  <div data-role="content"> 
+  <h2>Enter your information</h2>
+  <div data-role="fieldcontain">
+    <label for="textinput2">Name:</label>
+    <input type="text" name="textinput2" id="textinput2" value=""  />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="textinput3">Address:</label>
+    <input type="text" name="textinput3" id="textinput3" value=""  />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="textinput4">Mobile Number:</label>
+    <input type="text" name="textinput4" id="textinput4" value=""  />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="textinput5">Username:</label>
+    <input type="text" name="textinput5" id="textinput5" value=""  />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="passwordinput2">Password:</label>
+    <input type="password" name="passwordinput2" id="passwordinput2" value=""  />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="textinput6">Email:</label>
+    <input type="email" name="textinput6" id="textinput6" value=""  />
+  </div>
+  <input type="submit" name="submit" value="Submit">
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="page8">
+<div data-role="header">
+    <h1>MAX CLINIC</h1>
+  </div>
+<div data-role="content">
+   <div>
+
+  <div>
+  <a href="#page5">Set Appointment Status</a>
+  </div>
+  <div>
+  <a href="#page6">Book New Appointment</a>
+  </div>
+  
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="page8">
+    <div data-role="header">
+      <h1>MAX CLINC</h1>
+    </div>
+    <div data-role="content">
+      <ul data-role="listview">
+        <li><a href="#">List All Time Intervals</a></li>
+        <li><a href="#">List All Appointments</a></li>
+        <li><a href="#">Add New Time Interval</a></li>
+        <li><a href="#">Approvable Appointments</a></li>
+      </ul>
+    
+    
+  </div>
+  <div data-role="footer">
+      <h4>Footer</h4>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
